@@ -1,0 +1,46 @@
+{
+  "name": "anodyne",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Bawal starts here! 😎",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:bawalhq/anodyne.git"
+  },
+  "author": {
+    "name": "Sayak Sarkar",
+    "email": "sayak.bugsmith@gmail.com",
+    "url": "https://sayak.in"
+  },
+  "contributors": [
+    {
+      "name": "Soumya Deb",
+      "email": "debloper@gmail.com",
+      "url": "https://debs.io"
+    },
+    {
+      "name": "Swarnava Sengupta",
+      "email": "swarnavasengupta@gmail.com",
+      "url": "https://swarnava.in"
+    }
+  ],
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "12.1.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "17.0.23",
+    "@types/react": "17.0.43",
+    "@types/react-dom": "17.0.14",
+    "eslint": "8.12.0",
+    "eslint-config-next": "12.1.1",
+    "typescript": "4.6.3"
+  }
+}
